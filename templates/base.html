@@ -16,7 +16,15 @@
     <div class="container">
         {% block content %}{% endblock %}
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+        }
+        </style>
+    <footer id="sticky-footer" class="py-4 footer bg-dark text-white-50">
         <div class="container text-center">
             <small>Copyright &copy; Nearby Hotel API. Developed by <a style="text-decoration: none; color: #aeaeaa;" href="https://gyrationtechs.com.ng">David Ozokoye</a></small> 
         </div>
