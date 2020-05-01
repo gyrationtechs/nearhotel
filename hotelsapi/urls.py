@@ -1,5 +1,6 @@
 from django.contrib import admin
 from hotelsapi import views
+from django.conf.urls import url
 
 
 urlpatterns = [
