@@ -1,7 +1,7 @@
 # Nearby Hotels API using Django 
  API web application to show list of hotels given a location and coordinates 
 
-#Getting Started
+# Getting Started
 ### setting up virtual environment
 1. open cmd or terminal, run this command if you don't have virtual environment on your machine > pip install virtualenv
 2. create a virtual environment > virtualenv env
@@ -28,6 +28,6 @@ Linux / OSX: source/bin/activate
 1. Once all configurations are set, you can run the command > python manage.py runserver
 2. By default, you access the web app through > localhost:8000
 
-### Remote host
+### Remote Test (Live-server)
 1. The web application is hosted remotely on heroku and can be accessed through the link below
 Demo: https://nearbyhotel.herokuapp.com
