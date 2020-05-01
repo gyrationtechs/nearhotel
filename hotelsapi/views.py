@@ -42,6 +42,7 @@ def near_hotels(request):
         title3 = get_hotel(2)
         title4 = get_hotel(3)
         title5 = get_hotel(4)
+
     else:
         return render(request, 'hotels.html')
 
@@ -59,4 +60,6 @@ def near_hotels(request):
     }
 
     return render(request, 'hotels.html', context)
+
+
 

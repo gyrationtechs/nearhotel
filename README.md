@@ -6,10 +6,10 @@
 1. open cmd or terminal, run this command if you don't have virtual environment on your machine > pip install virtualenv
 2. create a virtual environment > virtualenv env
 3. Activate the virtual environment
-Windows: env\Scripts\activate
-Linux / OSX: source/bin/activate
+#### Windows: env\Scripts\activate
+#### Linux / OSX: source/bin/activate
 
-### Seeting up Local Server
+### Setting up Local Server
 1. Firstly, clone or download the github repository > https://github.com/gyrationtechs/nearhotel.git
 2. I am assume you are familiar with working with virtual environment and command prompt
 3. to clone the repository run this command > 'git clone https://github.com/gyrationtechs/nearhotel.git'
@@ -27,6 +27,10 @@ Linux / OSX: source/bin/activate
 ### Testing the Application Locally
 1. Once all configurations are set, you can run the command > python manage.py runserver
 2. By default, you access the web app through > localhost:8000
+3. From the homepage, click on the get Started button, it will redirect you to the api form page
+4. Enter the addres you wish to get nearby hotels for. 
+5. It posts the data and returns a list of 5 hotels close to the specified location, as well as returning the map and coordinates for the specified location
+6. To alter the result, change the near_hotels function, alter the limit parameter in the url variable to your desired value
 
 ### Remote Test (Live-server)
 1. The web application is hosted remotely on heroku and can be accessed through the link below
