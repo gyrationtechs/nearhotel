@@ -5,6 +5,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
-    url(r'^api/', include('ggcode.urls')),
+    url(r'^api/', include('hotelsapi.urls')),
     url(r'^admin/', admin.site.urls),
 ]

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from ggcode import views
+from hotelsapi import views
 
 
 urlpatterns = [
